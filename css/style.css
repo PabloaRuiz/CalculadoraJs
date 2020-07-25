@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color:#242529;
+    text-decoration: none;
+}
+a:visited {
+    color:#242529;
+    text-decoration: none;
+}
+a:hover {color:#73cee6;}
+
+body {
+    background-image: linear-gradient(to right,  #00BFFF, #ffd700);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    position:fixed;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    height: 100px;
+    margin-top: -9em;
+    margin-left: -17em;
+}
+
+.numeric {
+    width: 118px;
+    height: 118px;
+    display: inline-block;
+    background:#000000;
+    color: #969ea5;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle !important;
+    margin-left: -5px;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.numeric:active {
+    background: #f0f0f5 !important;
+    color: #00BFFF  !important;
+}
+
+.zero {
+    width: 236px !important;
+}
+
+.action {
+    background: #242529;
+}
+
+.result {
+    background: #4682B4 !important;
+}
+
+.visor {
+    width: 472px;
+    height: 140px;
+    margin-left: -5px;
+    background: #f6f7fa;
+}
+
+.total {
+    color: #242529;
+    width: 500px;
+    font-size: 60px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.acc {
+    color:#9FB6CD;
+    width: 500px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: -10%;
+    bottom: 0;
+    width: 100%;
+    font-style: oblique;
+    color:#00bfff;
+    text-align: right;
+    height: 70px;
+}
+
